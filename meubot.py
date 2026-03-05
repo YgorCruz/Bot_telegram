@@ -51,7 +51,7 @@ def comando_dir(mensagem):
 def comando_cd(mensagem):
     pasta = mensagem.text.replace("/cd", "").strip()
     if not pasta:
-        bot.reply_to(mensagem, "Chefe, faltou a pasta. Ex: `/cd ..` ou `/cd Projetos`", parse_mode="Markdown")
+        bot.reply_to(mensagem, "Faltou a pasta. Ex: `/cd ..` ou `/cd Projetos`", parse_mode="Markdown")
         return
     try:
         os.chdir(pasta)
