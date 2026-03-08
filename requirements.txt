@@ -1,9 +1,8 @@
-python-telegram-bot
+pyTelegramBotAPI
+groq
 pandas
 openpyxl
 xlrd
-pyTelegramBotAPI
-groq
 pyxlsb
 odfpy
 Flask
